@@ -1,0 +1,24 @@
+version = "1.0"
+
+[metadata]
+author_name = "Myles Petu"
+difficulty = "hard"
+category = "security"
+tags = ["authorization", "multi-tenant", "delegation", "incident-response", "python"]
+
+[agent]
+timeout_sec = 72000.0
+
+[verifier]
+timeout_sec = 180.0
+
+[environment]
+network_mode = "no-network"
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 2048
+storage_mb = 4096
+
+[task]
+name = "myles/tenant-boundary-recovery"
+description = "Repair tenant isolation, delegated authorization, revocation and queued exports in a synthetic document service."

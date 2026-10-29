@@ -1,0 +1,55 @@
+{
+  "principals": {
+    "ada": {
+      "kind": "human",
+      "active": true
+    },
+    "bisi": {
+      "kind": "human",
+      "active": true
+    },
+    "chidi": {
+      "kind": "human",
+      "active": true
+    },
+    "dami": {
+      "kind": "human",
+      "active": true
+    },
+    "eni": {
+      "kind": "human",
+      "active": true
+    }
+  },
+  "memberships": {
+    "north": {
+      "ada": "owner",
+      "bisi": "editor",
+      "chidi": "viewer"
+    },
+    "south": {
+      "dami": "owner",
+      "eni": "editor"
+    }
+  },
+  "documents": {
+    "n-1": {
+      "tenant": "north",
+      "body": "synthetic north budget",
+      "revision": 1
+    },
+    "n-2": {
+      "tenant": "north",
+      "body": "synthetic north notes",
+      "revision": 1
+    },
+    "s-1": {
+      "tenant": "south",
+      "body": "synthetic south budget",
+      "revision": 1
+    }
+  },
+  "grants": {},
+  "denies": [],
+  "jobs": {}
+}
